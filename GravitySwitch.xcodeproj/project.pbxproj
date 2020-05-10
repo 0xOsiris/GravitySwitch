@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		950874C42461CF090026316A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 950874C32461CF090026316A /* GoogleService-Info.plist */; };
+		9510DC0A243AE0D50001360C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510DC09243AE0D50001360C /* AppDelegate.swift */; };
+		9510DC0C243AE0D50001360C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9510DC0B243AE0D50001360C /* GameScene.sks */; };
+		9510DC0E243AE0D50001360C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9510DC0D243AE0D50001360C /* Actions.sks */; };
+		9510DC10243AE0D50001360C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510DC0F243AE0D50001360C /* GameScene.swift */; };
+		9510DC12243AE0D50001360C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510DC11243AE0D50001360C /* GameViewController.swift */; };
+		9510DC15243AE0D50001360C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9510DC13243AE0D50001360C /* Main.storyboard */; };
+		9510DC17243AE0D80001360C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9510DC16243AE0D80001360C /* Assets.xcassets */; };
+		9510DC1A243AE0D80001360C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9510DC18243AE0D80001360C /* LaunchScreen.storyboard */; };
+		9510DC25243AE0D80001360C /* GravitySwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510DC24243AE0D80001360C /* GravitySwitchTests.swift */; };
+		9510DC30243AE0D80001360C /* GravitySwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510DC2F243AE0D80001360C /* GravitySwitchUITests.swift */; };
+		9518C6C32464C97F00393049 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9518C6C22464C97F00393049 /* GameKit.framework */; };
+		955E8B9424526A4E005E7119 /* Shopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955E8B9324526A4E005E7119 /* Shopping.swift */; };
+		955E8B9824613345005E7119 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955E8B9724613345005E7119 /* MainMenu.swift */; };
+		955E8B9A2461465B005E7119 /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 955E8B992461465B005E7119 /* MainMenu.sks */; };
+		955E8B9C24614969005E7119 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955E8B9B24614969005E7119 /* Settings.swift */; };
+		955E8B9E24614983005E7119 /* Settings.sks in Resources */ = {isa = PBXBuildFile; fileRef = 955E8B9D24614983005E7119 /* Settings.sks */; };
+		955E8BA024614997005E7119 /* Shopping.sks in Resources */ = {isa = PBXBuildFile; fileRef = 955E8B9F24614997005E7119 /* Shopping.sks */; };
+		CAC57BEC0C1F7FB01A8CF57F /* Pods_GravitySwitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA25FE07589984378AA2002F /* Pods_GravitySwitch.framework */; };
+		E2CD007C16BFDB9F2DCE3D3A /* Pods_GravitySwitchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B21FD4944B00D5594848D1E /* Pods_GravitySwitchTests.framework */; };
+		FFCBF9722D2027B4704A9026 /* Pods_GravitySwitchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3085B5F0921AA8A5266CC24 /* Pods_GravitySwitchUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9510DC21243AE0D80001360C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9510DBFE243AE0D50001360C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9510DC05243AE0D50001360C;
+			remoteInfo = RetroRoute;
+		};
+		9510DC2C243AE0D80001360C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9510DBFE243AE0D50001360C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9510DC05243AE0D50001360C;
+			remoteInfo = RetroRoute;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27186D75FF02C311393CF2F2 /* Pods-GravitySwitchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitySwitchUITests.release.xcconfig"; path = "Target Support Files/Pods-GravitySwitchUITests/Pods-GravitySwitchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6B21FD4944B00D5594848D1E /* Pods_GravitySwitchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GravitySwitchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		803A8477BB83CFAECBD6680D /* Pods-GravitySwitchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitySwitchTests.release.xcconfig"; path = "Target Support Files/Pods-GravitySwitchTests/Pods-GravitySwitchTests.release.xcconfig"; sourceTree = "<group>"; };
+		8641B9F33D5A007028DDBE8B /* Pods-GravitySwitchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitySwitchTests.debug.xcconfig"; path = "Target Support Files/Pods-GravitySwitchTests/Pods-GravitySwitchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		950874C32461CF090026316A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9510DC06243AE0D50001360C /* GravitySwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GravitySwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9510DC09243AE0D50001360C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9510DC0B243AE0D50001360C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9510DC0D243AE0D50001360C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		9510DC0F243AE0D50001360C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9510DC11243AE0D50001360C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9510DC14243AE0D50001360C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9510DC16243AE0D80001360C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9510DC19243AE0D80001360C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9510DC1B243AE0D80001360C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9510DC20243AE0D80001360C /* GravitySwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GravitySwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9510DC24243AE0D80001360C /* GravitySwitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravitySwitchTests.swift; sourceTree = "<group>"; };
+		9510DC26243AE0D80001360C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9510DC2B243AE0D80001360C /* GravitySwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GravitySwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9510DC2F243AE0D80001360C /* GravitySwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravitySwitchUITests.swift; sourceTree = "<group>"; };
+		9510DC31243AE0D80001360C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9518C6C22464C97F00393049 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		955E8B9324526A4E005E7119 /* Shopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping.swift; sourceTree = "<group>"; };
+		955E8B9724613345005E7119 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		955E8B992461465B005E7119 /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		955E8B9B24614969005E7119 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		955E8B9D24614983005E7119 /* Settings.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Settings.sks; sourceTree = "<group>"; };
+		955E8B9F24614997005E7119 /* Shopping.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Shopping.sks; sourceTree = "<group>"; };
+		95F6062B24677A4100A19CCB /* GravitySwitchRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GravitySwitchRelease.entitlements; sourceTree = "<group>"; };
+		AA25FE07589984378AA2002F /* Pods_GravitySwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GravitySwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E947A1220A67D5DDDE3296 /* Pods-GravitySwitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitySwitch.release.xcconfig"; path = "Target Support Files/Pods-GravitySwitch/Pods-GravitySwitch.release.xcconfig"; sourceTree = "<group>"; };
+		D6A0DDFBBE967671D9647211 /* Pods-GravitySwitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitySwitch.debug.xcconfig"; path = "Target Support Files/Pods-GravitySwitch/Pods-GravitySwitch.debug.xcconfig"; sourceTree = "<group>"; };
+		D8A7BBA7A0BF086B56247321 /* Pods-GravitySwitchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitySwitchUITests.debug.xcconfig"; path = "Target Support Files/Pods-GravitySwitchUITests/Pods-GravitySwitchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3085B5F0921AA8A5266CC24 /* Pods_GravitySwitchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GravitySwitchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9510DC03243AE0D50001360C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9518C6C32464C97F00393049 /* GameKit.framework in Frameworks */,
+				CAC57BEC0C1F7FB01A8CF57F /* Pods_GravitySwitch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9510DC1D243AE0D80001360C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CD007C16BFDB9F2DCE3D3A /* Pods_GravitySwitchTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9510DC28243AE0D80001360C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCBF9722D2027B4704A9026 /* Pods_GravitySwitchUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67CA19B0FF00C53A5F5E28CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6A0DDFBBE967671D9647211 /* Pods-GravitySwitch.debug.xcconfig */,
+				B1E947A1220A67D5DDDE3296 /* Pods-GravitySwitch.release.xcconfig */,
+				8641B9F33D5A007028DDBE8B /* Pods-GravitySwitchTests.debug.xcconfig */,
+				803A8477BB83CFAECBD6680D /* Pods-GravitySwitchTests.release.xcconfig */,
+				D8A7BBA7A0BF086B56247321 /* Pods-GravitySwitchUITests.debug.xcconfig */,
+				27186D75FF02C311393CF2F2 /* Pods-GravitySwitchUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9510DBFD243AE0D50001360C = {
+			isa = PBXGroup;
+			children = (
+				9510DC08243AE0D50001360C /* GravitySwitch */,
+				9510DC23243AE0D80001360C /* GravitySwitchTests */,
+				9510DC2E243AE0D80001360C /* GravitySwitchUITests */,
+				9510DC07243AE0D50001360C /* Products */,
+				67CA19B0FF00C53A5F5E28CA /* Pods */,
+				BF875C38F43F08489106A852 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9510DC07243AE0D50001360C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9510DC06243AE0D50001360C /* GravitySwitch.app */,
+				9510DC20243AE0D80001360C /* GravitySwitchTests.xctest */,
+				9510DC2B243AE0D80001360C /* GravitySwitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9510DC08243AE0D50001360C /* GravitySwitch */ = {
+			isa = PBXGroup;
+			children = (
+				95F6062B24677A4100A19CCB /* GravitySwitchRelease.entitlements */,
+				950874C32461CF090026316A /* GoogleService-Info.plist */,
+				9510DC09243AE0D50001360C /* AppDelegate.swift */,
+				9510DC0B243AE0D50001360C /* GameScene.sks */,
+				9510DC0D243AE0D50001360C /* Actions.sks */,
+				9510DC0F243AE0D50001360C /* GameScene.swift */,
+				9510DC11243AE0D50001360C /* GameViewController.swift */,
+				9510DC13243AE0D50001360C /* Main.storyboard */,
+				9510DC16243AE0D80001360C /* Assets.xcassets */,
+				9510DC18243AE0D80001360C /* LaunchScreen.storyboard */,
+				9510DC1B243AE0D80001360C /* Info.plist */,
+				955E8B9324526A4E005E7119 /* Shopping.swift */,
+				955E8B9724613345005E7119 /* MainMenu.swift */,
+				955E8B992461465B005E7119 /* MainMenu.sks */,
+				955E8B9B24614969005E7119 /* Settings.swift */,
+				955E8B9D24614983005E7119 /* Settings.sks */,
+				955E8B9F24614997005E7119 /* Shopping.sks */,
+			);
+			path = GravitySwitch;
+			sourceTree = "<group>";
+		};
+		9510DC23243AE0D80001360C /* GravitySwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				9510DC24243AE0D80001360C /* GravitySwitchTests.swift */,
+				9510DC26243AE0D80001360C /* Info.plist */,
+			);
+			path = GravitySwitchTests;
+			sourceTree = "<group>";
+		};
+		9510DC2E243AE0D80001360C /* GravitySwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9510DC2F243AE0D80001360C /* GravitySwitchUITests.swift */,
+				9510DC31243AE0D80001360C /* Info.plist */,
+			);
+			path = GravitySwitchUITests;
+			sourceTree = "<group>";
+		};
+		BF875C38F43F08489106A852 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9518C6C22464C97F00393049 /* GameKit.framework */,
+				AA25FE07589984378AA2002F /* Pods_GravitySwitch.framework */,
+				6B21FD4944B00D5594848D1E /* Pods_GravitySwitchTests.framework */,
+				E3085B5F0921AA8A5266CC24 /* Pods_GravitySwitchUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9510DC05243AE0D50001360C /* GravitySwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9510DC34243AE0D80001360C /* Build configuration list for PBXNativeTarget "GravitySwitch" */;
+			buildPhases = (
+				3118B0401315975F2ABF4D73 /* [CP] Check Pods Manifest.lock */,
+				9510DC02243AE0D50001360C /* Sources */,
+				9510DC03243AE0D50001360C /* Frameworks */,
+				9510DC04243AE0D50001360C /* Resources */,
+				EA60800AB85D70D374DBA3F0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GravitySwitch;
+			productName = RetroRoute;
+			productReference = 9510DC06243AE0D50001360C /* GravitySwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9510DC1F243AE0D80001360C /* GravitySwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9510DC37243AE0D80001360C /* Build configuration list for PBXNativeTarget "GravitySwitchTests" */;
+			buildPhases = (
+				1D1DEED5A340EF6F27F373E1 /* [CP] Check Pods Manifest.lock */,
+				9510DC1C243AE0D80001360C /* Sources */,
+				9510DC1D243AE0D80001360C /* Frameworks */,
+				9510DC1E243AE0D80001360C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9510DC22243AE0D80001360C /* PBXTargetDependency */,
+			);
+			name = GravitySwitchTests;
+			productName = RetroRouteTests;
+			productReference = 9510DC20243AE0D80001360C /* GravitySwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9510DC2A243AE0D80001360C /* GravitySwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9510DC3A243AE0D80001360C /* Build configuration list for PBXNativeTarget "GravitySwitchUITests" */;
+			buildPhases = (
+				614460E30CBE3091F629815C /* [CP] Check Pods Manifest.lock */,
+				9510DC27243AE0D80001360C /* Sources */,
+				9510DC28243AE0D80001360C /* Frameworks */,
+				9510DC29243AE0D80001360C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9510DC2D243AE0D80001360C /* PBXTargetDependency */,
+			);
+			name = GravitySwitchUITests;
+			productName = RetroRouteUITests;
+			productReference = 9510DC2B243AE0D80001360C /* GravitySwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9510DBFE243AE0D50001360C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Leyton Taylor";
+				TargetAttributes = {
+					9510DC05243AE0D50001360C = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					9510DC1F243AE0D80001360C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 9510DC05243AE0D50001360C;
+					};
+					9510DC2A243AE0D80001360C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 9510DC05243AE0D50001360C;
+					};
+				};
+			};
+			buildConfigurationList = 9510DC01243AE0D50001360C /* Build configuration list for PBXProject "GravitySwitch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9510DBFD243AE0D50001360C;
+			productRefGroup = 9510DC07243AE0D50001360C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9510DC05243AE0D50001360C /* GravitySwitch */,
+				9510DC1F243AE0D80001360C /* GravitySwitchTests */,
+				9510DC2A243AE0D80001360C /* GravitySwitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9510DC04243AE0D50001360C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9510DC15243AE0D50001360C /* Main.storyboard in Resources */,
+				955E8B9A2461465B005E7119 /* MainMenu.sks in Resources */,
+				950874C42461CF090026316A /* GoogleService-Info.plist in Resources */,
+				9510DC0C243AE0D50001360C /* GameScene.sks in Resources */,
+				955E8BA024614997005E7119 /* Shopping.sks in Resources */,
+				9510DC17243AE0D80001360C /* Assets.xcassets in Resources */,
+				955E8B9E24614983005E7119 /* Settings.sks in Resources */,
+				9510DC1A243AE0D80001360C /* LaunchScreen.storyboard in Resources */,
+				9510DC0E243AE0D50001360C /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9510DC1E243AE0D80001360C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9510DC29243AE0D80001360C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D1DEED5A340EF6F27F373E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GravitySwitchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3118B0401315975F2ABF4D73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GravitySwitch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		614460E30CBE3091F629815C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GravitySwitchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA60800AB85D70D374DBA3F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GravitySwitch/Pods-GravitySwitch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GravitySwitch/Pods-GravitySwitch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GravitySwitch/Pods-GravitySwitch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9510DC02243AE0D50001360C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955E8B9C24614969005E7119 /* Settings.swift in Sources */,
+				955E8B9824613345005E7119 /* MainMenu.swift in Sources */,
+				9510DC10243AE0D50001360C /* GameScene.swift in Sources */,
+				955E8B9424526A4E005E7119 /* Shopping.swift in Sources */,
+				9510DC12243AE0D50001360C /* GameViewController.swift in Sources */,
+				9510DC0A243AE0D50001360C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9510DC1C243AE0D80001360C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9510DC25243AE0D80001360C /* GravitySwitchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9510DC27243AE0D80001360C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9510DC30243AE0D80001360C /* GravitySwitchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9510DC22243AE0D80001360C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9510DC05243AE0D50001360C /* GravitySwitch */;
+			targetProxy = 9510DC21243AE0D80001360C /* PBXContainerItemProxy */;
+		};
+		9510DC2D243AE0D80001360C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9510DC05243AE0D50001360C /* GravitySwitch */;
+			targetProxy = 9510DC2C243AE0D80001360C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9510DC13243AE0D50001360C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9510DC14243AE0D50001360C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9510DC18243AE0D80001360C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9510DC19243AE0D80001360C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9510DC32243AE0D80001360C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9510DC33243AE0D80001360C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9510DC35243AE0D80001360C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A0DDFBBE967671D9647211 /* Pods-GravitySwitch.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 828K3A97DF;
+				INFOPLIST_FILE = GravitySwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leytontaylor.gravityswitch;
+				PRODUCT_NAME = GravitySwitch;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9510DC36243AE0D80001360C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1E947A1220A67D5DDDE3296 /* Pods-GravitySwitch.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GravitySwitch/GravitySwitchRelease.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 828K3A97DF;
+				INFOPLIST_FILE = GravitySwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leytontaylor.gravityswitch;
+				PRODUCT_NAME = GravitySwitch;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9510DC38243AE0D80001360C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8641B9F33D5A007028DDBE8B /* Pods-GravitySwitchTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GravitySwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leytontaylor.RetroRouteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GravitySwitch.app/GravitySwitch";
+			};
+			name = Debug;
+		};
+		9510DC39243AE0D80001360C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 803A8477BB83CFAECBD6680D /* Pods-GravitySwitchTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GravitySwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leytontaylor.RetroRouteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GravitySwitch.app/GravitySwitch";
+			};
+			name = Release;
+		};
+		9510DC3B243AE0D80001360C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8A7BBA7A0BF086B56247321 /* Pods-GravitySwitchUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GravitySwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leytontaylor.RetroRouteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RetroRoute;
+			};
+			name = Debug;
+		};
+		9510DC3C243AE0D80001360C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27186D75FF02C311393CF2F2 /* Pods-GravitySwitchUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GravitySwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leytontaylor.RetroRouteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RetroRoute;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9510DC01243AE0D50001360C /* Build configuration list for PBXProject "GravitySwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9510DC32243AE0D80001360C /* Debug */,
+				9510DC33243AE0D80001360C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9510DC34243AE0D80001360C /* Build configuration list for PBXNativeTarget "GravitySwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9510DC35243AE0D80001360C /* Debug */,
+				9510DC36243AE0D80001360C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9510DC37243AE0D80001360C /* Build configuration list for PBXNativeTarget "GravitySwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9510DC38243AE0D80001360C /* Debug */,
+				9510DC39243AE0D80001360C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9510DC3A243AE0D80001360C /* Build configuration list for PBXNativeTarget "GravitySwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9510DC3B243AE0D80001360C /* Debug */,
+				9510DC3C243AE0D80001360C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9510DBFE243AE0D50001360C /* Project object */;
+}
