@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9510DC05243AE0D50001360C"
-               BuildableName = "GravitySwitch.app"
+               BuildableName = "Gravity Switch Swipe &amp; Tap Game.app"
                BlueprintName = "GravitySwitch"
                ReferencedContainer = "container:GravitySwitch.xcodeproj">
             </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9510DC05243AE0D50001360C"
-            BuildableName = "GravitySwitch.app"
+            BuildableName = "Gravity Switch Swipe &amp; Tap Game.app"
             BlueprintName = "GravitySwitch"
             ReferencedContainer = "container:GravitySwitch.xcodeproj">
          </BuildableReference>
@@ -82,7 +82,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9510DC05243AE0D50001360C"
-            BuildableName = "GravitySwitch.app"
+            BuildableName = "Gravity Switch Swipe &amp; Tap Game.app"
             BlueprintName = "GravitySwitch"
             ReferencedContainer = "container:GravitySwitch.xcodeproj">
          </BuildableReference>

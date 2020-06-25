@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35AD3B9361660286ACE402FD /* Pods_GravitySwitchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D40F1A7DE73A0EF40682E6 /* Pods_GravitySwitchUITests.framework */; };
+		4F7DE29B0B86D17C42DB05AF /* Pods_GravitySwitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866CCCF5325F8672E9024F32 /* Pods_GravitySwitch.framework */; };
 		950874C42461CF090026316A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 950874C32461CF090026316A /* GoogleService-Info.plist */; };
 		9510DC0A243AE0D50001360C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510DC09243AE0D50001360C /* AppDelegate.swift */; };
 		9510DC0C243AE0D50001360C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9510DC0B243AE0D50001360C /* GameScene.sks */; };
@@ -19,15 +21,10 @@
 		9510DC25243AE0D80001360C /* GravitySwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510DC24243AE0D80001360C /* GravitySwitchTests.swift */; };
 		9510DC30243AE0D80001360C /* GravitySwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510DC2F243AE0D80001360C /* GravitySwitchUITests.swift */; };
 		9518C6C32464C97F00393049 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9518C6C22464C97F00393049 /* GameKit.framework */; };
-		955E8B9424526A4E005E7119 /* Shopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955E8B9324526A4E005E7119 /* Shopping.swift */; };
 		955E8B9824613345005E7119 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955E8B9724613345005E7119 /* MainMenu.swift */; };
 		955E8B9A2461465B005E7119 /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 955E8B992461465B005E7119 /* MainMenu.sks */; };
-		955E8B9C24614969005E7119 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955E8B9B24614969005E7119 /* Settings.swift */; };
-		955E8B9E24614983005E7119 /* Settings.sks in Resources */ = {isa = PBXBuildFile; fileRef = 955E8B9D24614983005E7119 /* Settings.sks */; };
-		955E8BA024614997005E7119 /* Shopping.sks in Resources */ = {isa = PBXBuildFile; fileRef = 955E8B9F24614997005E7119 /* Shopping.sks */; };
-		CAC57BEC0C1F7FB01A8CF57F /* Pods_GravitySwitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA25FE07589984378AA2002F /* Pods_GravitySwitch.framework */; };
-		E2CD007C16BFDB9F2DCE3D3A /* Pods_GravitySwitchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B21FD4944B00D5594848D1E /* Pods_GravitySwitchTests.framework */; };
-		FFCBF9722D2027B4704A9026 /* Pods_GravitySwitchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3085B5F0921AA8A5266CC24 /* Pods_GravitySwitchUITests.framework */; };
+		9586376824821ADB00D1CC1B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9586376724821ADB00D1CC1B /* StoreKit.framework */; };
+		F490F30D491E691375F6B416 /* Pods_GravitySwitchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16515DC18D4CFB3DB5FF0019 /* Pods_GravitySwitchTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,12 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		27186D75FF02C311393CF2F2 /* Pods-GravitySwitchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitySwitchUITests.release.xcconfig"; path = "Target Support Files/Pods-GravitySwitchUITests/Pods-GravitySwitchUITests.release.xcconfig"; sourceTree = "<group>"; };
-		6B21FD4944B00D5594848D1E /* Pods_GravitySwitchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GravitySwitchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		803A8477BB83CFAECBD6680D /* Pods-GravitySwitchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitySwitchTests.release.xcconfig"; path = "Target Support Files/Pods-GravitySwitchTests/Pods-GravitySwitchTests.release.xcconfig"; sourceTree = "<group>"; };
-		8641B9F33D5A007028DDBE8B /* Pods-GravitySwitchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitySwitchTests.debug.xcconfig"; path = "Target Support Files/Pods-GravitySwitchTests/Pods-GravitySwitchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		06855907655529615C8C7B9E /* Pods-GravitySwitchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitySwitchUITests.release.xcconfig"; path = "Target Support Files/Pods-GravitySwitchUITests/Pods-GravitySwitchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0AA3AACED659741FAB07E86D /* Pods-GravitySwitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitySwitch.release.xcconfig"; path = "Target Support Files/Pods-GravitySwitch/Pods-GravitySwitch.release.xcconfig"; sourceTree = "<group>"; };
+		10B8269DDFB25AB1B34BFFDC /* Pods-GravitySwitchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitySwitchTests.release.xcconfig"; path = "Target Support Files/Pods-GravitySwitchTests/Pods-GravitySwitchTests.release.xcconfig"; sourceTree = "<group>"; };
+		12BAFB9278A846B8543D7C0E /* Pods-GravitySwitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitySwitch.debug.xcconfig"; path = "Target Support Files/Pods-GravitySwitch/Pods-GravitySwitch.debug.xcconfig"; sourceTree = "<group>"; };
+		16515DC18D4CFB3DB5FF0019 /* Pods_GravitySwitchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GravitySwitchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21258B9385D0C4419803E9FE /* Pods-GravitySwitchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitySwitchUITests.debug.xcconfig"; path = "Target Support Files/Pods-GravitySwitchUITests/Pods-GravitySwitchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		866CCCF5325F8672E9024F32 /* Pods_GravitySwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GravitySwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		950874C32461CF090026316A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		9510DC06243AE0D50001360C /* GravitySwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GravitySwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9510DC06243AE0D50001360C /* Gravity Switch Swipe & Tap Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gravity Switch Swipe & Tap Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9510DC09243AE0D50001360C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9510DC0B243AE0D50001360C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		9510DC0D243AE0D50001360C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -70,18 +70,12 @@
 		9510DC2F243AE0D80001360C /* GravitySwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravitySwitchUITests.swift; sourceTree = "<group>"; };
 		9510DC31243AE0D80001360C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9518C6C22464C97F00393049 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
-		955E8B9324526A4E005E7119 /* Shopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping.swift; sourceTree = "<group>"; };
 		955E8B9724613345005E7119 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		955E8B992461465B005E7119 /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
-		955E8B9B24614969005E7119 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
-		955E8B9D24614983005E7119 /* Settings.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Settings.sks; sourceTree = "<group>"; };
-		955E8B9F24614997005E7119 /* Shopping.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Shopping.sks; sourceTree = "<group>"; };
+		9586376724821ADB00D1CC1B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		95F6062B24677A4100A19CCB /* GravitySwitchRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GravitySwitchRelease.entitlements; sourceTree = "<group>"; };
-		AA25FE07589984378AA2002F /* Pods_GravitySwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GravitySwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1E947A1220A67D5DDDE3296 /* Pods-GravitySwitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitySwitch.release.xcconfig"; path = "Target Support Files/Pods-GravitySwitch/Pods-GravitySwitch.release.xcconfig"; sourceTree = "<group>"; };
-		D6A0DDFBBE967671D9647211 /* Pods-GravitySwitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitySwitch.debug.xcconfig"; path = "Target Support Files/Pods-GravitySwitch/Pods-GravitySwitch.debug.xcconfig"; sourceTree = "<group>"; };
-		D8A7BBA7A0BF086B56247321 /* Pods-GravitySwitchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitySwitchUITests.debug.xcconfig"; path = "Target Support Files/Pods-GravitySwitchUITests/Pods-GravitySwitchUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E3085B5F0921AA8A5266CC24 /* Pods_GravitySwitchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GravitySwitchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A42C756BD4A71C5ED4FAA8B /* Pods-GravitySwitchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitySwitchTests.debug.xcconfig"; path = "Target Support Files/Pods-GravitySwitchTests/Pods-GravitySwitchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5D40F1A7DE73A0EF40682E6 /* Pods_GravitySwitchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GravitySwitchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +83,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9586376824821ADB00D1CC1B /* StoreKit.framework in Frameworks */,
 				9518C6C32464C97F00393049 /* GameKit.framework in Frameworks */,
-				CAC57BEC0C1F7FB01A8CF57F /* Pods_GravitySwitch.framework in Frameworks */,
+				4F7DE29B0B86D17C42DB05AF /* Pods_GravitySwitch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2CD007C16BFDB9F2DCE3D3A /* Pods_GravitySwitchTests.framework in Frameworks */,
+				F490F30D491E691375F6B416 /* Pods_GravitySwitchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFCBF9722D2027B4704A9026 /* Pods_GravitySwitchUITests.framework in Frameworks */,
+				35AD3B9361660286ACE402FD /* Pods_GravitySwitchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,12 +111,12 @@
 		67CA19B0FF00C53A5F5E28CA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D6A0DDFBBE967671D9647211 /* Pods-GravitySwitch.debug.xcconfig */,
-				B1E947A1220A67D5DDDE3296 /* Pods-GravitySwitch.release.xcconfig */,
-				8641B9F33D5A007028DDBE8B /* Pods-GravitySwitchTests.debug.xcconfig */,
-				803A8477BB83CFAECBD6680D /* Pods-GravitySwitchTests.release.xcconfig */,
-				D8A7BBA7A0BF086B56247321 /* Pods-GravitySwitchUITests.debug.xcconfig */,
-				27186D75FF02C311393CF2F2 /* Pods-GravitySwitchUITests.release.xcconfig */,
+				12BAFB9278A846B8543D7C0E /* Pods-GravitySwitch.debug.xcconfig */,
+				0AA3AACED659741FAB07E86D /* Pods-GravitySwitch.release.xcconfig */,
+				9A42C756BD4A71C5ED4FAA8B /* Pods-GravitySwitchTests.debug.xcconfig */,
+				10B8269DDFB25AB1B34BFFDC /* Pods-GravitySwitchTests.release.xcconfig */,
+				21258B9385D0C4419803E9FE /* Pods-GravitySwitchUITests.debug.xcconfig */,
+				06855907655529615C8C7B9E /* Pods-GravitySwitchUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -141,7 +136,7 @@
 		9510DC07243AE0D50001360C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9510DC06243AE0D50001360C /* GravitySwitch.app */,
+				9510DC06243AE0D50001360C /* Gravity Switch Swipe & Tap Game.app */,
 				9510DC20243AE0D80001360C /* GravitySwitchTests.xctest */,
 				9510DC2B243AE0D80001360C /* GravitySwitchUITests.xctest */,
 			);
@@ -162,12 +157,8 @@
 				9510DC16243AE0D80001360C /* Assets.xcassets */,
 				9510DC18243AE0D80001360C /* LaunchScreen.storyboard */,
 				9510DC1B243AE0D80001360C /* Info.plist */,
-				955E8B9324526A4E005E7119 /* Shopping.swift */,
 				955E8B9724613345005E7119 /* MainMenu.swift */,
 				955E8B992461465B005E7119 /* MainMenu.sks */,
-				955E8B9B24614969005E7119 /* Settings.swift */,
-				955E8B9D24614983005E7119 /* Settings.sks */,
-				955E8B9F24614997005E7119 /* Shopping.sks */,
 			);
 			path = GravitySwitch;
 			sourceTree = "<group>";
@@ -193,10 +184,11 @@
 		BF875C38F43F08489106A852 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9586376724821ADB00D1CC1B /* StoreKit.framework */,
 				9518C6C22464C97F00393049 /* GameKit.framework */,
-				AA25FE07589984378AA2002F /* Pods_GravitySwitch.framework */,
-				6B21FD4944B00D5594848D1E /* Pods_GravitySwitchTests.framework */,
-				E3085B5F0921AA8A5266CC24 /* Pods_GravitySwitchUITests.framework */,
+				866CCCF5325F8672E9024F32 /* Pods_GravitySwitch.framework */,
+				16515DC18D4CFB3DB5FF0019 /* Pods_GravitySwitchTests.framework */,
+				A5D40F1A7DE73A0EF40682E6 /* Pods_GravitySwitchUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,11 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9510DC34243AE0D80001360C /* Build configuration list for PBXNativeTarget "GravitySwitch" */;
 			buildPhases = (
-				3118B0401315975F2ABF4D73 /* [CP] Check Pods Manifest.lock */,
+				FFE775AA406A4D4E8FB48BF6 /* [CP] Check Pods Manifest.lock */,
 				9510DC02243AE0D50001360C /* Sources */,
 				9510DC03243AE0D50001360C /* Frameworks */,
 				9510DC04243AE0D50001360C /* Resources */,
-				EA60800AB85D70D374DBA3F0 /* [CP] Embed Pods Frameworks */,
+				F044BFBF146F1217AD87669B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -220,14 +212,14 @@
 			);
 			name = GravitySwitch;
 			productName = RetroRoute;
-			productReference = 9510DC06243AE0D50001360C /* GravitySwitch.app */;
+			productReference = 9510DC06243AE0D50001360C /* Gravity Switch Swipe & Tap Game.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9510DC1F243AE0D80001360C /* GravitySwitchTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9510DC37243AE0D80001360C /* Build configuration list for PBXNativeTarget "GravitySwitchTests" */;
 			buildPhases = (
-				1D1DEED5A340EF6F27F373E1 /* [CP] Check Pods Manifest.lock */,
+				9E88650FF1976007B8CDDB4D /* [CP] Check Pods Manifest.lock */,
 				9510DC1C243AE0D80001360C /* Sources */,
 				9510DC1D243AE0D80001360C /* Frameworks */,
 				9510DC1E243AE0D80001360C /* Resources */,
@@ -246,7 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9510DC3A243AE0D80001360C /* Build configuration list for PBXNativeTarget "GravitySwitchUITests" */;
 			buildPhases = (
-				614460E30CBE3091F629815C /* [CP] Check Pods Manifest.lock */,
+				3C82BAF6FE86AFB621F123F4 /* [CP] Check Pods Manifest.lock */,
 				9510DC27243AE0D80001360C /* Sources */,
 				9510DC28243AE0D80001360C /* Frameworks */,
 				9510DC29243AE0D80001360C /* Resources */,
@@ -313,9 +305,7 @@
 				955E8B9A2461465B005E7119 /* MainMenu.sks in Resources */,
 				950874C42461CF090026316A /* GoogleService-Info.plist in Resources */,
 				9510DC0C243AE0D50001360C /* GameScene.sks in Resources */,
-				955E8BA024614997005E7119 /* Shopping.sks in Resources */,
 				9510DC17243AE0D80001360C /* Assets.xcassets in Resources */,
-				955E8B9E24614983005E7119 /* Settings.sks in Resources */,
 				9510DC1A243AE0D80001360C /* LaunchScreen.storyboard in Resources */,
 				9510DC0E243AE0D50001360C /* Actions.sks in Resources */,
 			);
@@ -338,51 +328,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1D1DEED5A340EF6F27F373E1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GravitySwitchTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3118B0401315975F2ABF4D73 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GravitySwitch-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		614460E30CBE3091F629815C /* [CP] Check Pods Manifest.lock */ = {
+		3C82BAF6FE86AFB621F123F4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -404,7 +350,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EA60800AB85D70D374DBA3F0 /* [CP] Embed Pods Frameworks */ = {
+		9E88650FF1976007B8CDDB4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GravitySwitchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F044BFBF146F1217AD87669B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -421,6 +389,28 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GravitySwitch/Pods-GravitySwitch-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FFE775AA406A4D4E8FB48BF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GravitySwitch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -428,10 +418,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				955E8B9C24614969005E7119 /* Settings.swift in Sources */,
 				955E8B9824613345005E7119 /* MainMenu.swift in Sources */,
 				9510DC10243AE0D50001360C /* GameScene.swift in Sources */,
-				955E8B9424526A4E005E7119 /* Shopping.swift in Sources */,
 				9510DC12243AE0D50001360C /* GameViewController.swift in Sources */,
 				9510DC0A243AE0D50001360C /* AppDelegate.swift in Sources */,
 			);
@@ -606,52 +594,108 @@
 		};
 		9510DC35243AE0D80001360C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6A0DDFBBE967671D9647211 /* Pods-GravitySwitch.debug.xcconfig */;
+			baseConfigurationReference = 12BAFB9278A846B8543D7C0E /* Pods-GravitySwitch.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 828K3A97DF;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC/openssl_grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth/FirebaseAuth.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/FirebaseFirestore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFunctions/FirebaseFunctions.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransportCCTSupport/GoogleDataTransportCCTSupport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil/absl.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/grpcpp.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core/grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library/leveldb.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAuthInterop\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnosticsInterop\"",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+				);
 				INFOPLIST_FILE = GravitySwitch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leytontaylor.gravityswitch;
-				PRODUCT_NAME = GravitySwitch;
+				PRODUCT_NAME = "Gravity Switch Swipe & Tap Game";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		9510DC36243AE0D80001360C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1E947A1220A67D5DDDE3296 /* Pods-GravitySwitch.release.xcconfig */;
+			baseConfigurationReference = 0AA3AACED659741FAB07E86D /* Pods-GravitySwitch.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GravitySwitch/GravitySwitchRelease.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 828K3A97DF;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC/openssl_grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth/FirebaseAuth.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/FirebaseFirestore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFunctions/FirebaseFunctions.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransportCCTSupport/GoogleDataTransportCCTSupport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil/absl.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/grpcpp.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core/grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library/leveldb.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAuthInterop\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnosticsInterop\"",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+				);
 				INFOPLIST_FILE = GravitySwitch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leytontaylor.gravityswitch;
-				PRODUCT_NAME = GravitySwitch;
+				PRODUCT_NAME = "Gravity Switch Swipe & Tap Game";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		9510DC38243AE0D80001360C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8641B9F33D5A007028DDBE8B /* Pods-GravitySwitchTests.debug.xcconfig */;
+			baseConfigurationReference = 9A42C756BD4A71C5ED4FAA8B /* Pods-GravitySwitchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -672,7 +716,7 @@
 		};
 		9510DC39243AE0D80001360C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 803A8477BB83CFAECBD6680D /* Pods-GravitySwitchTests.release.xcconfig */;
+			baseConfigurationReference = 10B8269DDFB25AB1B34BFFDC /* Pods-GravitySwitchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -693,7 +737,7 @@
 		};
 		9510DC3B243AE0D80001360C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8A7BBA7A0BF086B56247321 /* Pods-GravitySwitchUITests.debug.xcconfig */;
+			baseConfigurationReference = 21258B9385D0C4419803E9FE /* Pods-GravitySwitchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -713,7 +757,7 @@
 		};
 		9510DC3C243AE0D80001360C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27186D75FF02C311393CF2F2 /* Pods-GravitySwitchUITests.release.xcconfig */;
+			baseConfigurationReference = 06855907655529615C8C7B9E /* Pods-GravitySwitchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

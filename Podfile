@@ -9,7 +9,7 @@ target 'GravitySwitch' do
   pod 'Firebase/Functions'
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
-  
+  pod 'Google-Mobile-Ads-SDK'
   
   
   target 'GravitySwitchTests' do
